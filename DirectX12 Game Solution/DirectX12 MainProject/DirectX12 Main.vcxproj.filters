@@ -10,6 +10,9 @@
     <Filter Include="Scene">
       <UniqueIdentifier>{d7d56ad3-60f4-40ad-b499-8133f5f75990}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Base\PMX">
+      <UniqueIdentifier>{169d368a-6186-4a18-802b-71f33f3276d1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Base\d3dx12.h">
@@ -42,6 +45,12 @@
     <ClInclude Include="DontDestroyOnLoad.h">
       <Filter>Scene</Filter>
     </ClInclude>
+    <ClInclude Include="Class\PmxReading.h">
+      <Filter>Base\PMX</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\PmxStructList.h">
+      <Filter>Base\PMX</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Base\Main.cpp">
@@ -55,6 +64,9 @@
     </ClCompile>
     <ClCompile Include="MainScene.cpp">
       <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\PmxReading.cpp">
+      <Filter>Base\PMX</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

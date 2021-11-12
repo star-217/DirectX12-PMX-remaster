@@ -21,7 +21,7 @@ void MainScene::Initialize()
 // Allocate all memory the Direct3D and Direct2D resources.
 void MainScene::LoadAssets()
 {
-
+	auto a = d.PmxRead("Model/‚É‚ª‚à‚ñŽ®—ì–²/reimu.pmx");
 }
 
 // Releasing resources required for termination.

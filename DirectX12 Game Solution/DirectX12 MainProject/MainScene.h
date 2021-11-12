@@ -5,6 +5,7 @@
 #pragma once
 
 #include "Scene.h"
+#include "Class/PmxReading.h"
 
 using Microsoft::WRL::ComPtr;
 using std::unique_ptr;
@@ -36,6 +37,6 @@ public:
 
 private:
 
-
+	PmxReading d;
 
 };
